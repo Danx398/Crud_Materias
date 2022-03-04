@@ -84,8 +84,8 @@
                             <td><?= $key['creditos'] ?></td>
                             <td><?= $key['semestre'] ?></td>
                             <td><?= $key['carrera'] ?></td>
-                            <td><a href="editar.php?id=<?= $key['id_materia'] ?>">Editar</a></td>
-                            <td><a href="procesos/eliminar.php?id=<?= $key['id_materia'] ?>">Eliminar</a></td>
+                            <td><a href="editar.php?id=<?= $key['id_materia'] ?>"><i class="far fa-edit fs-4"></i></a></td>
+                            <td><a href="procesos/eliminar.php?id=<?= $key['id_materia'] ?>"><i class="fs-4 fas fa-ban"></i></a></td>
                         </tr>
                         <?php
                             endforeach;
